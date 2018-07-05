@@ -1,5 +1,5 @@
 ## Perspective-Aware CNN For Crowd Counting
-By SHI Miaojing, YANG Zhaohui, XU Chao and CHEN Qijun
+By SHI Miaojing, YANG Zhaohui, XU Chao and CHEN Qijun.
 This implementation is written by SHI Miaojing and YANG Zhaohui
 
 ### Introduction
