@@ -24,8 +24,8 @@ We tested the implementation on Linux 14.04 with GPU Nvidia Titan, CUDA8 and CuD
 ### Train and Test
 Train and deploy prototxt are available in folder TrainTest. You can use the matlab code to load configurations, prepare data and test model. Our trained model on ShanghaiTech PartB is also included for test.
 
-### ShanghaiTech Dataset
-ShanghaiTech can be download using dropbox: https://www.dropbox.com/s/ci3nghwhe9wy8h5/ShanghaiTech.zip?dl=0
+### Perspective Maps for ShanghaiTech Dataset
+We also provide the ground truth perspective map for every image in the ShanghaiTech Dataset. Please refer to our paper about the generation of GT perspective maps. If you find the perspective data useful in your research, please kindly cite our paper above. 
 
 ### Q&A
 Please submit a bug report on the Github site of the project if you run into any problems with the code.
