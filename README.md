@@ -3,7 +3,7 @@ By SHI Miaojing, YANG Zhaohui, XU Chao and CHEN Qijun.
 This implementation is written by SHI Miaojing and YANG Zhaohui
 
 ### Introduction
-This project is an implementation of the proposed method in our arXiv paper - [Perspective-Aware CNN For Crowd Counting (PACNN)](http://arxiv.org/abs/). A major challenge of the crowd counting lies in the drastic changes of scales and perspectives in images. Recent trends employs different (large) sized filters or conduct patch-based estimations to tackle it. This work does not follow them, it instead directly predicts a perspective map in the network and encodes it as a perspective-aware weighting layer to adaptively combine the density outputs from multi-scale feature maps. The weights are learned at every pixel of the map such that the final combination is robust to perspective changes and pedestrian size variations. PACNN achieves state-of-the-art results and runs as fast as the fastest. The ground truth perspective maps used in this work is also provided. 
+This project is an implementation of the proposed method in our arXiv paper - [Perspective-Aware CNN For Crowd Counting (PACNN)](https://arxiv.org/abs/1807.01989). A major challenge of the crowd counting lies in the drastic changes of scales and perspectives in images. Recent trends employs different (large) sized filters or conduct patch-based estimations to tackle it. This work does not follow them, it instead directly predicts a perspective map in the network and encodes it as a perspective-aware weighting layer to adaptively combine the density outputs from multi-scale feature maps. The weights are learned at every pixel of the map such that the final combination is robust to perspective changes and pedestrian size variations. PACNN achieves state-of-the-art results and runs as fast as the fastest. The ground truth perspective maps used in this work is also provided. 
 
 ### License
 This code is released under the MIT License (Please refer to the LICENSE file for details). It can only be used for academic research purposes.
@@ -13,7 +13,7 @@ This code is released under the MIT License (Please refer to the LICENSE file fo
 @article{shi18pacnn,
 Author = {Miaojing Shi, Zhaohui Yang, Chao Xu and Qijun Chen},
 Title = {Perspective-Aware CNN For Crowd Counting},
-booktitle= = {arXiv},
+booktitle= = {arXiv:1807.01989},
 Year = {2018}
 }
 ```
